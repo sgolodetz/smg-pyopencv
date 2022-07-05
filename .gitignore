@@ -1,6 +1,9 @@
 .idea/
 __pycache__/
+_skbuild/
 build/
 dist/
-smg/pyopencv/cpp/
+smg/pyopencv/cpp/*.dll
+smg/pyopencv/cpp/*.lib
+smg/pyopencv/cpp/*.pyd
 *.egg-info/
