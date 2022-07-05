@@ -41,7 +41,7 @@ INCLUDE_DIRECTORIES(${pybind11_INCLUDE_DIRS})
 # Specify the target #
 ######################
 
-PYBIND11_ADD_MODULE(${targetname} SHARED ${targetname}.cpp smg/pyopencv/cpp/${targetname}.pyi)
+PYBIND11_ADD_MODULE(${targetname} SHARED ${targetname}.cpp smg/${targetname}/cpp/${targetname}.pyi)
 TARGET_COMPILE_DEFINITIONS(${targetname} PRIVATE VERSION_INFO=${PROJECT_VERSION})
 
 #################################
