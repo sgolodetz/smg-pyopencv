@@ -15,6 +15,9 @@ skbuild.setup(
     packages=["smg.pyopencv", "smg.pyopencv.cpp"],
     cmake_install_dir="smg/pyopencv/cpp",
     include_package_data=True,
+    install_requires=[
+        "numpy"
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
