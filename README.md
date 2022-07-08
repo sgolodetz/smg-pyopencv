@@ -10,9 +10,9 @@ Note: Please read the [top-level README](https://github.com/sgolodetz/smglib/blo
 
 1. Download and extract a pre-built copy of OpenCV (if you have not already done so), and set (at a system level, not within the terminal) the `SMGLIB_OPENCV_DIR` environment variable to the sub-directory within it that contains `OpenCVConfig.cmake`, e.g.
 
-```
-C:/Users/<your user>/Downloads/opencv-3.4.15/build
-```
+   ```
+   C:/Users/<your user>/Downloads/opencv-3.4.15/build
+   ```
 
 2. Open the terminal, and change to the `<root>/smg-pyopencv` directory.
 
