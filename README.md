@@ -18,11 +18,7 @@ C:/Users/<your user>/Downloads/opencv-3.4.15/build
 
 3. Check out the `master` branch.
 
-4. Activate the Conda environment, e.g.
-
-```
-conda activate smglib
-```
+4. Activate the Conda environment, e.g. `conda activate smglib`.
 
 5. Run `pip install -e .` at the terminal.
 
